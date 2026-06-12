@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Exagroaly</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px; margin: 0 auto; padding: 40px 20px;
+            background: white; box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .header {
+            text-align: center; padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; margin-bottom: 40px;
+        }
+        .header h1 { font-size: 3em; margin-bottom: 10px; }
+        h2 { color: #667eea; font-size: 1.8em; margin: 30px 0 20px 0; border-bottom: 2px solid #764ba2; padding-bottom: 10px; }
+        h3 { color: #764ba2; font-size: 1.3em; margin: 25px 0 15px 0; }
+        .card { background: #f8f9ff; border: 2px solid #667eea; border-radius: 10px; padding: 25px; margin: 20px 0; }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; padding: 40px; margin: 40px 0; text-align: center;
+        }
+        .btn {
+            display: inline-block; background: white; color: #667eea;
+            padding: 15px 30px; margin: 10px 5px; text-decoration: none;
+            border-radius: 8px; font-weight: bold;
+        }
+        .back-link { display: inline-block; margin-top: 30px; color: #667eea; text-decoration: none; font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤝 Support</h1>
+            <p>We're here to help you manage your time better with Exagroaly</p>
+        </div>
+        <h2>📞 Contact Us</h2>
+        <div class="card">
+            <h3>✉️ Email Support</h3>
+            <p>We typically respond within 24-48 hours.</p>
+            <p><strong>Email:</strong> <a href="mailto:themingledspirit@gmail.com">themingledspirit@gmail.com</a></p>
+        </div>
+        <h2>🆘 Common Issues</h2>
+        <div class="card">
+            <h4>Forgot to record activity?</h4>
+            <p>You can add activities manually in the app.</p>
+        </div>
+        <div class="card">
+            <h4>Apple Watch sync issues?</h4>
+            <p>Restart both devices and ensure Bluetooth is connected.</p>
+        </div>
+        <div class="contact-box">
+            <h2>💌 Get Help Now</h2>
+            <a href="mailto:themingledspirit@gmail.com" class="btn">Email Us</a>
+        </div>
+        <p><strong>Location:</strong> Bala Cynwyd, Pennsylvania, US</p>
+        <a href="privacy.html" class="back-link">← Read Privacy Policy</a>
+    </div>
+</body>
+</html>
